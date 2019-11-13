@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		ul {
+			list-style: none;
+			margin:0;
+			padding: 0;
+		}
+		#tabs {
+			display: flex;
+			width: 1300px;
+			justify-content: space-between;
+		}
+		.tabs_box {
+			width: 500px;
+		}
+		.tabs {
+			display: flex;
+		}
+		.tabs li {
+			padding: 10px;
+			padding-left: 26px;
+			font-size: 18px;
+			background: url('images/icon1.png') no-repeat 10px;
+		}
+		.tabs .cur {
+			color: #046fbb;
+		}
+		.contents div {
+			height: 200px;
+			font-size: 14px;
+			line-height: 1.5;
+			display: none;
+		}
+		.contents .show {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div id="tabs">
+	  <div id="tabs1" class="tabs_box">
+		<ul class="tabs"><!-- act:active   cur:current -->
+			<li class="cur">时政新闻</li>
+			<li>时政介绍</li>
+			<li>新闻介绍</li>
+		</ul>
+		<div class="contents">
+			<div class="show">时政新闻的内容：<strong>习近平在雅典：赴一场“文明之约”</strong></div>
+			<div>时政介绍的内容：爱琴海岸，古希腊文明跨越千年。而在亚欧大陆的另一端，中华文明绵延传承。同为文明古国，中希两国可以为应对当今世界面临的各种问题和挑战提供智慧和启示。在对希腊进行国事访问之际，习近平在希腊媒体发表署名文章强调，伟大的古老文明都是“相似”“相知”，更是“相亲”的。在同帕夫洛普洛斯总统会谈时，习近平用“酒逢知己千杯少”这句中国古诗来形容这种相知相亲的情谊。   中希两国坚持交流互鉴，向全世界展示了伟大古老文明的和合之美。中希关系的发展彰显了文明古国在现代社会互利合作的勃勃生机。“中希应该挖掘古老文明的深邃智慧，展现文明古国的历史担当”，习近平在署名文章中提出，共同推动构建相互尊重、公平正义、合作共赢的新型国际关系，共同推动构建人类命运共同体。</div>
+			<div>新闻介绍的内容：希腊总理米佐塔基斯在会谈时表示，希腊希望成为中国进入欧洲市场的门户，欢迎更多中国企业前来投资兴业。中国国际问题研究院欧洲研究所所长崔洪建认为，希腊既是“17+1合作”成员，也是欧盟和欧元区的成员。希腊的多元身份，使得习主席此访的意义超出了双边关系的范畴。
+      中欧作为多极化世界的两大力量，彼此之间有着广泛共同追求，也有着许多共同理念。今年3月，习近平首次出访就飞赴欧洲，用一场友谊之旅、合作之旅、开拓之旅，引领中国同意大利、摩纳哥、法国关系迈上新的征程，推动共建“一带一路”在亚欧大陆开辟新的空间，为中欧全面战略伙伴关系注入新的动力。
+      用希腊总理米佐塔基斯的话就是，“访问必将取得丰硕成果，成为希中、欧中关系发展新的重要里程碑”。</div>
+		</div>
+	  </div>
+	  <div id="tabs2" class="tabs_box">
+		<ul class="tabs"><!-- act:active   cur:current -->
+			<li class="cur">时政新闻</li>
+			<li>时政介绍</li>
+			<li>新闻介绍</li>
+		</ul>
+		<div class="contents">
+			<div class="show">时政新闻的内容：<strong>李克强主持召开经济形势专家和企业家座谈会强调 </strong>
+      改革开放增动力 实干奋进扩潜力 保持经济运行在合理区间 
+      韩正出席
+      新华社北京11月12日电  11月12日，中共中央政治局常委、国务院总理李克强主持召开经济形势专家和企业家座谈会，就当前经济形势、下一步经济工作听取意见建议。　中共中央政治局常委、国务院副总理韩正出席。</div>
+			<div>时政介绍的内容：李克强说，今年以来，全国上下在以习近平同志为核心的党中央坚强领导下，努力攻坚克难，依靠改革开放和精准调控，经济运行保持在合理区间，城镇新增就业提前实现全年目标，中国这么大的经济体在高基数上中高速平稳增长，本身就是进，成绩来之不易。但当前外部环境更趋复杂严峻，国内经济下行压力加大、猪肉等一些产品价格上涨较快、企业经营困难增多等矛盾交织。必须增强忧患意识、实干精神。要坚持以习近平新时代中国特色社会主义思想为指导，着力办好自己的事，坚持稳中求进，把发展作为解决一切问题的基础和关键，精准施策，奋发实干，扎实做好“六稳”工作，确保完成今年经济社会发展主要目标任务，为下一步发展打好基础。</div>
+			<div>新闻介绍的内容：李克强说，要坚持推进改革开放，更大激发市场活力和社会创造力。按照全面实施《优化营商环境条例》的要求，推动“放管服”改革取得更大突破，破除企业投资兴业的隐性门槛。推进高水平对外开放，支持企业抓住我国开放举措不断出台和《区域全面经济伙伴关系协定》达成共识的契机，积极参与国际竞争合作。强化科技创新，持续开展双创和互联网+，提升新动能对经济的支撑力，加快制造业升级，促进高质量发展。</div>
+		</div>
+	  </div>
+	  <div id="tabs3" class="tabs_box">
+		<ul class="tabs"><!-- act:active   cur:current -->
+			<li class="cur">时政新闻</li>
+			<li>时政介绍</li>
+			<li>新闻介绍</li>
+		</ul>
+		<div class="contents">
+			<div class="show">时政新闻的内容：<strong>俄外长拉夫罗夫：金砖国家加强战略伙伴关系有利于全球稳定、共同安全和创新增长</strong></div>
+			<div>金砖国家领导人第十一次会晤即将于2019年11月13日-14日在巴西利亚举行。对于我们来说，这是一件大事。在此活动举办前夕，我想谈一下俄罗斯对金砖国家战略伙伴关系的看法。
+　　在金砖国家现任主席国巴西推动下，金砖国家在政治、经济、人文等所有重点合作领域，都已经取得了重要的进展。俄罗斯支持巴西力求提高多领域协作的实效，以促进金砖国家繁荣昌盛，提升人民的福祉。
+
+　　 我们欢迎巴西总统雅伊尔·博索纳罗在大阪所发表的声明，他强调了在金砖国家的机制内，加强对话的重要性。这将使金砖国家能够以最佳的方式，对全球持续变化所带来的优势加以利用。</div>
+			<div>和其他金砖国家一样，俄罗斯同样拒绝强权与压迫、勒索与威胁，特别是未经联合国安理会的批准就使用武力。相反，俄罗斯建议选择那种旨在能够达成共识的、能够虑及国家之间交往的所有参与者利益的、相互尊重的对话方式。我们坚信：任何有关国际议程中最重要问题的协议，都应当在所有相关方最大限度的、广泛而平等的参与之下得到制定，并以公认的法律规范为基础。金砖国家坚定地致力于国际生活的民主化，这种民主化建立在《联合国宪章》、尊重世界文化与文明的多样性、尊重人民有权自行决定其自身命运的原则之上。</div>
+		</div>
+	  </div>
+	</div>
+	<script>
+		function tab(id){
+			var box=document.getElementById(id);
+			var ul=box.getElementsByClassName('tabs')[0];
+			var lis=ul.getElementsByTagName('li');
+			var div=box.getElementsByClassName('contents')[0];
+			var divs=div.getElementsByTagName('div');
+			for(var i=0;i<lis.length;i++){//lis.lenght 列表的个数
+				lis[i].index=i;//设置所有选项index属性，保存选项的索引序号
+				lis[i].onclick=function(){
+					//所有选项样式恢复正常
+					for(var i=0;i<lis.length;i++){
+						lis[i].removeAttribute('class');//去掉class属性
+					}
+					for(var i=0;i<divs.length;i++){
+						divs[i].removeAttribute('class');
+					}
+					this.className='cur';//被点击的选项具有特殊样式
+					divs[this.index].className='show';//被点击的选项对应的选项内容显示
+				}
+			}
+		}
+		tab('tabs1');
+		tab('tabs2');
+		tab('tabs3');
+	</script>
+</body>
+</html>
